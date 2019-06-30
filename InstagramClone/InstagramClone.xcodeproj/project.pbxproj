@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		4FC8171D22C79AA5005AA3FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC8171C22C79AA5005AA3FA /* AppDelegate.swift */; };
 		4FC8172222C79AA5005AA3FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC8172022C79AA5005AA3FA /* Main.storyboard */; };
-		4FC8172422C79AA6005AA3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC8172322C79AA6005AA3FA /* Assets.xcassets */; };
 		4FC8172722C79AA6005AA3FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC8172522C79AA6005AA3FA /* LaunchScreen.storyboard */; };
 		4FC8173222C79B9E005AA3FA /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC8173122C79B9E005AA3FA /* LoginVC.swift */; };
 		4FC8173522C79EC0005AA3FA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC8173422C79EC0005AA3FA /* Extensions.swift */; };
+		4FC8173922C8B943005AA3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC8173822C8B943005AA3FA /* Assets.xcassets */; };
+		4FC8173F22C8C273005AA3FA /* Billabong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FC8173E22C8C273005AA3FA /* Billabong.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4FC8171922C79AA5005AA3FA /* InstagramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC8171C22C79AA5005AA3FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FC8172122C79AA5005AA3FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4FC8172322C79AA6005AA3FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FC8172622C79AA6005AA3FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FC8172822C79AA6005AA3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FC8173122C79B9E005AA3FA /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		4FC8173422C79EC0005AA3FA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4FC8173822C8B943005AA3FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
+		4FC8173E22C8C273005AA3FA /* Billabong.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Billabong.ttf; path = ../../../../../../Downloads/Billabong.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +62,10 @@
 				4FC8173022C79B5C005AA3FA /* Model */,
 				4FC8172F22C79B55005AA3FA /* View */,
 				4FC8172E22C79B4E005AA3FA /* Controller */,
+				4FC8173A22C8BAB8005AA3FA /* Fonts */,
 				4FC8171C22C79AA5005AA3FA /* AppDelegate.swift */,
 				4FC8172022C79AA5005AA3FA /* Main.storyboard */,
-				4FC8172322C79AA6005AA3FA /* Assets.xcassets */,
+				4FC8173822C8B943005AA3FA /* Assets.xcassets */,
 				4FC8172522C79AA6005AA3FA /* LaunchScreen.storyboard */,
 				4FC8172822C79AA6005AA3FA /* Info.plist */,
 			);
@@ -97,6 +100,14 @@
 				4FC8173422C79EC0005AA3FA /* Extensions.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		4FC8173A22C8BAB8005AA3FA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4FC8173E22C8C273005AA3FA /* Billabong.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,8 +169,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FC8172722C79AA6005AA3FA /* LaunchScreen.storyboard in Resources */,
-				4FC8172422C79AA6005AA3FA /* Assets.xcassets in Resources */,
+				4FC8173922C8B943005AA3FA /* Assets.xcassets in Resources */,
 				4FC8172222C79AA5005AA3FA /* Main.storyboard in Resources */,
+				4FC8173F22C8C273005AA3FA /* Billabong.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
