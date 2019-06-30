@@ -14,6 +14,8 @@
 		4FC8173522C79EC0005AA3FA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC8173422C79EC0005AA3FA /* Extensions.swift */; };
 		4FC8173922C8B943005AA3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC8173822C8B943005AA3FA /* Assets.xcassets */; };
 		4FC8173F22C8C273005AA3FA /* Billabong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FC8173E22C8C273005AA3FA /* Billabong.ttf */; };
+		4FC8174122C8DCB6005AA3FA /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC8174022C8DCB6005AA3FA /* PaddingLabel.swift */; };
+		4FC8174322C8E128005AA3FA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC8174222C8E128005AA3FA /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		4FC8173422C79EC0005AA3FA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		4FC8173822C8B943005AA3FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
 		4FC8173E22C8C273005AA3FA /* Billabong.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Billabong.ttf; path = ../../../../../../Downloads/Billabong.ttf; sourceTree = "<group>"; };
+		4FC8174022C8DCB6005AA3FA /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		4FC8174222C8E128005AA3FA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				4FC8173422C79EC0005AA3FA /* Extensions.swift */,
+				4FC8174022C8DCB6005AA3FA /* PaddingLabel.swift */,
+				4FC8174222C8E128005AA3FA /* Constants.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -182,6 +188,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FC8174322C8E128005AA3FA /* Constants.swift in Sources */,
+				4FC8174122C8DCB6005AA3FA /* PaddingLabel.swift in Sources */,
 				4FC8173222C79B9E005AA3FA /* LoginVC.swift in Sources */,
 				4FC8173522C79EC0005AA3FA /* Extensions.swift in Sources */,
 				4FC8171D22C79AA5005AA3FA /* AppDelegate.swift in Sources */,
